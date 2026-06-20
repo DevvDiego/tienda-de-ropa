@@ -1,43 +1,23 @@
-# sv
+# tienda de ropa
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
+## Instalando el proyecto
+Para instalar las dependencias del proyecto utiliza 
 ```sh
-# create a new project
-npx sv create my-app
+npx pnpm install
+```
+Te pedira que aceptes instalar pnpm (**de manera temporal**) y listo, ya puedes empezar a trabajar.
+
+## Añadiendo mas dependencias
+```sh
+# Ejemplo para instalar el componente alert de shadcn-svelte
+npx pnpm dlx shadcn-svelte@latest add alert
 ```
 
-To recreate this project with the same configuration:
 
-```sh
-# recreate this project
-pnpm dlx sv@0.16.1 create --template minimal --no-types --add tailwindcss="plugins:none" --install pnpm clothes/
-```
+## Documentacion de referencia
+- [TailwindCSS](https://tailwindcss.com/docs/styling-with-utility-classes)
+- [Svelte](https://svelte.dev/docs/svelte/overview)
+- [SvelteKit](https://svelte.dev/docs/kit/introduction)
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-# tienda-de-ropa
+## Recursos extra
+- [Shadcn-svelte](https://www.shadcn-svelte.com/)
