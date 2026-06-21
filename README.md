@@ -3,7 +3,7 @@
 ## Instalando el proyecto
 Para instalar las dependencias del proyecto utiliza 
 ```sh
-npx pnpm install
+npx pnpm@10.33.2 install
 ```
 Te pedira que aceptes instalar pnpm (**de manera temporal**) y listo, ya puedes empezar a trabajar.
 
